@@ -1,4 +1,4 @@
-This is the repo for the book [**Text Mining with R: A Tidy Approach**](http://tidytextmining.com/), by Julia Silge and David Robinson.
+This is the repo for the book [**belajaR: Catatan belajar R untuk Akademisi Sosial**](http://tidytextmining.com/), by Ujang Fahmi and Canggih Puspo W.
 
 [![Travis-CI Build Status](https://travis-ci.org/dgrtwo/tidy-text-mining.svg?branch=master)](https://travis-ci.org/dgrtwo/tidy-text-mining)
 
