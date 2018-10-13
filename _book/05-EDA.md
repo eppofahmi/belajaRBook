@@ -1,3 +1,3 @@
-# Data Exploratory Analysis
+# Data Exploration
 ## Case 1: Text data
 ## Case 2: Non Text data

@@ -25,7 +25,7 @@
 <meta name="author" content="Ujang Fahmi">
 
 
-<meta name="date" content="2018-10-13">
+<meta name="date" content="2018-10-14">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -101,9 +101,9 @@
 <li class="chapter" data-level="4.1" data-path="data-pre-processing.html"><a href="data-pre-processing.html#wrangling"><i class="fa fa-check"></i><b>4.1</b> Wrangling</a></li>
 <li class="chapter" data-level="4.2" data-path="data-pre-processing.html"><a href="data-pre-processing.html#cleaning"><i class="fa fa-check"></i><b>4.2</b> Cleaning</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="data-exploratory-analysis.html"><a href="data-exploratory-analysis.html"><i class="fa fa-check"></i><b>5</b> Data Exploratory Analysis</a><ul>
-<li class="chapter" data-level="5.1" data-path="data-exploratory-analysis.html"><a href="data-exploratory-analysis.html#case-1-text-data"><i class="fa fa-check"></i><b>5.1</b> Case 1: Text data</a></li>
-<li class="chapter" data-level="5.2" data-path="data-exploratory-analysis.html"><a href="data-exploratory-analysis.html#case-2-non-text-data"><i class="fa fa-check"></i><b>5.2</b> Case 2: Non Text data</a></li>
+<li class="chapter" data-level="5" data-path="data-exploration.html"><a href="data-exploration.html"><i class="fa fa-check"></i><b>5</b> Data Exploration</a><ul>
+<li class="chapter" data-level="5.1" data-path="data-exploration.html"><a href="data-exploration.html#case-1-text-data"><i class="fa fa-check"></i><b>5.1</b> Case 1: Text data</a></li>
+<li class="chapter" data-level="5.2" data-path="data-exploration.html"><a href="data-exploration.html#case-2-non-text-data"><i class="fa fa-check"></i><b>5.2</b> Case 2: Non Text data</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="analysismodelling.html"><a href="analysismodelling.html"><i class="fa fa-check"></i><b>6</b> Analysis/Modelling</a><ul>
 <li class="chapter" data-level="6.1" data-path="analysismodelling.html"><a href="analysismodelling.html#clusterring"><i class="fa fa-check"></i><b>6.1</b> Clusterring</a></li>
@@ -140,25 +140,22 @@
 <h1 class="title">belajaR</h1>
 <h3 class="subtitle"><em>A GUIDE FOR NON-PROGRAMMERS TO LEARN R</em></h3>
 <h4 class="author"><em>Ujang Fahmi</em></h4>
-<h4 class="date"><em>2018-10-13</em></h4>
+<h4 class="date"><em>2018-10-14</em></h4>
 </div>
 <div id="pengantar" class="section level1 unnumbered">
 <h1>Pengantar</h1>
 <p><img src="images/cover.png" width="350" height="460" align="right" alt="Cover image" /></p>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum <strong>Including References</strong> <span class="citation">(Arnold <a href="#ref-R-cleanNLP">2016</a>)</span>.</p>
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32 <span class="citation">(Fahmi, Wibowo, and Yudhanto <a href="#ref-R-eppo1">2017</a>)</span>.</p>
-<p>This is the <a href="http://tidytextmining.com/">website</a> for <em>belajaR</em>! Visit the <a href="https://github.com/dgrtwo/tidy-text-mining">GitHub repository for this site</a>, find the book at <a href="http://www.jdoqocy.com/click-4428796-11290546?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920067153.do%3Fcmp%3Daf-strata-books-video-product_cj_0636920067153_%25zp&amp;cjsku=0636920067153">O’Reilly</a>, or <a href="http://amzn.to/2tZkmxG">buy it on Amazon</a>.</p>
+<blockquote>
+<p>“Learning these skills isn’t just important for your future, it’s important for our country’s future.” <a href="https://www.youtube.com/watch?time_continue=13&amp;v=6XvmhE1J9PY">- Barack Obama</a></p>
+</blockquote>
+<p>Quot di atas disampaikan oleh Barack Obama saat menjabat sebagai presiden Amerika untuk memotivasi anak muda untuk belajar ilmu komputer. Bagi kami hal ini cukup menarik karena di saat yang bersamaan Amerika sudah menjadi salah satu kiblat perkembangan teknologi dunia, namun pemimpinnya masih menekankan pentingnya belajar hal yang bagi sebagai orang dianggap teralalu sulit untuk dilakukan. Kalimat lain dari Obama yang membuat saya, sebagai orang yang tidak memiliki bekal dasar ilmu pemrograman dan matematika yang memadai adalah: <em>no one’s born a computer scientist, but with a little hard work, and some math and science, just about anyone can become one.</em></p>
+<p>Pada awalnya, saya hanya ingin membuat sebuah penelitian sederhana dengan memanfaatkan data dari internet atau lebih tepatnya dari media sosial. Sebagaimana diketahui, saat ini kita berada di sebuah era di mana data ada dan bisa di dapat dari mana saja. Sayangnya, sebagian besar mahasiswa atau akademisi ilmu sosial tidak atau belum dibekali dengan kemampuan untuk memanfaatkannya data-data tersebut yang mau tidak mau harus berurusan dengan hal yang sering disebut <em>script</em> atau <em>code</em> dan bahasa pemrograman. Untuk mengatasi hal tersebut langkah sederhananya adalah minta bantuan teman atau bayar jasa.</p>
+<p>Namun jika anda seperti saya waktu itu, yang melihat langkah sederhana tersebut justru sulit, maka mungkin buku ini cocok untuk anda. Namun saya tidak dapat menjanjikan dengan membaca buku ini anda lantas bisa mahir bahasa pemrograman R, karena sebagian besar saya juga hanya belajar dari Youtube dan mengikuti kursus-kursus gratis yang banyak tersedia di internet. Dengan semangat berbagi, melalui buku ini saya ingin membagikan pengalaman mempelajari dan memanfaatkan bahasa pemrograman R baik dalam dunia akademis maupun untuk tujuan lain. Terkadang buat main-main dan mengisi waktu senggang. Untuk itu pula di sini saya mengajak teman sekaligus mentor saya <strong>Canggih Puspo Wibowo</strong> untuk ikut menulis, mengedit, dan memastikan apa yang saya tulis memenuhi standar minimal keilmuan yang sesuai.</p>
+<p>Di dalam buku ini saya tidak akan terlalu banyak menjelaskan sisi teknis atau matematika. Tapi hal tersebut bukan berarti tidak penting, bahkan untuk akademisi sosial. Di sini kami akan lebih banyak fokus pada pemanfaatan alat-alat yang sudah ada dalam bahasa pemrograman untuk menjawab pertanyaan akademis, maupun pertanyaan lain yang sifatnya hanya rasa keingintahuan penulis.</p>
+<p>Dengan segala keterbatasanya, kami ucapkan selamat membaca, dan semoga bermanfaat.</p>
+<p>This is the <a href="https://github.com/eppofahmi/belajaRBook">website</a> for <em>belajaR</em>! Visit the <a href="https://github.com/eppofahmi/belajaRBook">GitHub repository for this site</a>, find the book at <a href="http://www.jdoqocy.com/click-4428796-11290546?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920067153.do%3Fcmp%3Daf-strata-books-video-product_cj_0636920067153_%25zp&amp;cjsku=0636920067153">O’Reilly</a>, or <a href="http://amzn.to/2tZkmxG">buy it on Amazon</a>.</p>
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png" /></a><br />This work by <a href="https://github.com/eppofahmi">Ujang Fahmi</a> and <a href="https://github.com/canggihpw">Canggih Puspo W</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
 
-</div>
-<h3>References</h3>
-<div id="refs" class="references">
-<div id="ref-R-cleanNLP">
-<p>Arnold, Taylor B. 2016. <em>cleanNLP: A Tidy Data Model for Natural Language Processing</em>. <a href="https://cran.r-project.org/package=cleanNLP" class="uri">https://cran.r-project.org/package=cleanNLP</a>.</p>
-</div>
-<div id="ref-R-eppo1">
-<p>Fahmi, Ujang, Canggih Puspo Wibowo, and Faturahman Yudhanto. 2017. “Hybrid method in revealing facts behind texts: A Combination of Text Mining and Qualitative Approach.” <a href="https://www.atlantis-press.com/proceedings/aapa-18/25896109" class="uri">https://www.atlantis-press.com/proceedings/aapa-18/25896109</a>.</p>
-</div>
 </div>
             </section>
 
