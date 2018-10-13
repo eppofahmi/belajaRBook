@@ -1,8 +1,8 @@
-Package: tidy-text-mining
-Title: Text Mining with R: A Tidy Approach
+Package: belajaR
+Title: belajaR: Catatan belajar R untuk Akademisi Sosial
 Version: 0.0.0.9000
-Authors@R: c(person("David", "Robinson", email = "admiral.david@gmail.com", role = c("aut", "cre")),
-             person("Julia", "Silge", email = "julia.silge@gmail.com", role = c("aut")))
+Authors@R: c(person("Ujang", "Fahmi", email = "eppofahmi@gmail.com", role = c("aut", "cre")),
+             person("Canggih", "Puspo .W", email = "cangcappo@gmail.com", role = c("aut")))
 Depends: R (>= 3.3.0)
 Imports:
   bookdown,
@@ -27,5 +27,6 @@ Imports:
   stringr,
   ggforce,
   widyr,
-  mallet
-
+  mallet, 
+  highcharter, 
+  networkD3
